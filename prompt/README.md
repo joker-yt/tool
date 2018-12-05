@@ -28,7 +28,8 @@ launcher.append(new Ccommand{"sample", "t",
 4. invoke Clauncher::exec().
 
 ## Class diagram
-```plantuml
+```puml
+@startuml
 skinparam classAttributeIconSize 0
 
 class Clauncher{
@@ -42,6 +43,7 @@ class Ccommand{
 }
 
  Clauncher o- Ccommand
+ @enduml
 ```
 
 ## Sequence diagram
