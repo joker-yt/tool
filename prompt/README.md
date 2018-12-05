@@ -45,7 +45,8 @@ class Ccommand{
 ```
 
 ## Sequence diagram
-```plantuml
+```puml
+@startuml
 actor user
 
 main -> Clauncher : create
@@ -80,5 +81,5 @@ Ccommand --> Clauncher
 deactivate Ccommand
 Clauncher --> main
 deactivate Clauncher
-
+@enduml
 ```
