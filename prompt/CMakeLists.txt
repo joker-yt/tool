@@ -1,0 +1,12 @@
+project(Clauncher)
+cmake_minimum_required(VERSION 3.2.2)
+
+set(Clauncher-VERSION_MAJOR 1)
+set(Clauncher-VERSION_MINOR 0)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+set(CMAKE_C_COMPILER "/usr/bin/gcc")
+set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_BUILD_TYPE Debug)
+add_executable(a.out ${PROJECT_SOURCE_DIR}/src/main.cpp)
